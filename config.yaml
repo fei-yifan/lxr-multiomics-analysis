@@ -1,0 +1,15 @@
+project: LXR_multiomics
+
+rnaseq:
+  organism: mouse
+  genome: mm39
+  design: "~ treatment + batch"
+  fdr: 0.05
+
+atac:
+  genome: mm39
+  motif_tool: HOMER
+
+plots:
+  format: pdf
+  dpi: 300
