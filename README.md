@@ -1,5 +1,13 @@
-# lxr-multiomics-analysis
-bulk RNA-seq and ATAC-seq analysis workflows for studying LXR ligand– and myeloid cell–specific transcriptional programs.
+# LXR Multi-omics Analysis
+
+This repository contains reproducible RNA-seq and ATAC-seq analysis workflows
+used to study ligand- and cell-type–specific LXR signaling in myeloid cells.
+
+## Overview
+- RNA-seq downstream analysis based on Data Carpentry instructional materials
+- ATAC-seq processing following an external lab pipeline (code not redistributed)
+- Emphasis on reproducibility, configuration, and documentation
+  
 ## Attribution
 
 This repository uses and adapts instructional materials from
