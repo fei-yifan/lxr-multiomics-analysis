@@ -1,26 +1,19 @@
 # LXR Multi-omics Analysis
 
-This repository contains reproducible RNA-seq and ATAC-seq analysis workflows
+This repository contains reproducible RNA-seq and ATAC-seq downstream analysis
 used to study ligand- and cell-type–specific LXR signaling in myeloid cells.
 
-## Overview
-- RNA-seq downstream analysis based on Data Carpentry instructional materials
-- ATAC-seq processing following an external lab pipeline (code not redistributed)
-- Emphasis on reproducibility, configuration, and documentation
-  
-## Attribution
+## Scope
+- RNA-seq downstream analysis adapted from Data Carpentry instructional materials
+- ATAC-seq processing performed using an external lab pipeline (code not redistributed)
+- Additional downstream analysis, visualization, and documentation
 
-This repository uses and adapts instructional materials from
-**Data Carpentry**, which are licensed under the
-Creative Commons Attribution 3.0 License (CC-BY 3.0).
+## Repository Structure
+- `docs/` – analysis notes and workflow documentation
+- `scripts/` – custom scripts for downstream analysis and visualization
+- `config.yaml` – analysis configuration parameters
+- `CREDITS.md` – third-party materials and acknowledgements
 
-Copyright (c) Data Carpentry.
-
-Original materials:
-- https://datacarpentry.org
-
-License:
-- http://creativecommons.org/licenses/by/3.0/
-
-Modifications were made for local analysis workflows and downstream analysis.
-This use does not imply endorsement by Data Carpentry.
+## Notes
+This repository focuses on analysis organization, documentation, and reproducibility,
+rather than development of primary processing pipelines.
